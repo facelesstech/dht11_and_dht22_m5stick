@@ -99,8 +99,8 @@ void loop() {
 
   Serial.println(sensorValue);
   display.setTextSize(2);
-  display.drawFloat(sensorValue,0,20,5);
-  display.drawString("%", 5, 5);
+//  display.drawFloat(sensorValue,0,20,5);
+//  display.drawString("%", 5, 5);
   display.drawString("V", 170, 5);
   display.drawFloat(M5.Axp.GetBatVoltage(),2,185,5);
 
